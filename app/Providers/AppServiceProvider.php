@@ -36,6 +36,7 @@ class AppServiceProvider extends ServiceProvider
         // });
         view()->composer(['layouts.*'], function ($view) {
             $view->with('add', '中山路一號');
+            // test
         });
     }
 }
